@@ -1,12 +1,12 @@
 body:after {
 	content: 'Extra Large (xl > 1200px)';
 	background: #4b00a1;
-	position: absolute;
+  color: #fff;
+  position: absolute;
 	top: 30px;
 	right: 0;
 	font: bold 1rem sans-serif;
 	padding: 1rem;
-	color: #fff;
 }
 
 @media (max-width: 1199px) {

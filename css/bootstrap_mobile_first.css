@@ -1,12 +1,12 @@
 body:after {
 	content: 'Extra Small (xs < 575px)';
 	background: #ca0101;
-	position: absolute;
+  color: #fff;
+  position: absolute;
 	top: 30px;
 	right: 0;
 	font: bold 1rem sans-serif;
 	padding: 1rem;
-  color: #fff;
   z-index: 99999;
 }
 
