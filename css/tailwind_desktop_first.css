@@ -1,45 +1,45 @@
 body:after {
-	content: '2 Extra Large+ (2xl+ > 1536px)';
-	background: #4b00a1;
+  content: '2 Extra Large+ (2xl+ > 1536px)';
+  background: #4b00a1;
   color: #fff;
   position: absolute;
-	top: 30px;
-	right: 0;
-	font: bold 1rem sans-serif;
-	padding: 1rem;
+  top: 30px;
+  right: 0;
+  font: bold 1rem sans-serif;
+  padding: 1rem;
 }
 
 @media (max-width: 1535px) {
-	body:after {
-		content: '2 Extra Large (2xl < 1536px)';
-		background: #0046a1;
-	}
+  body:after {
+    content: '2 Extra Large (2xl < 1536px)';
+    background: #0046a1;
+  }
 }
 
 @media (max-width: 1279px) {
-	body:after {
-		content: 'Extra Large (xl < 1280px)';
-		background: #00a16b;
-	}
+  body:after {
+    content: 'Extra Large (xl < 1280px)';
+    background: #00a16b;
+  }
 }
 
 @media (max-width: 1023px) {
-	body:after {
-		content: 'Large (lg < 1024px)';
-		background: #69a100;
-	}
+  body:after {
+    content: 'Large (lg < 1024px)';
+    background: #69a100;
+  }
 }
 
 @media (max-width: 767px) {
-	body:after {
-		content: 'Medium (md < 768px)';
-		background: #a15b00;
-	}
+  body:after {
+    content: 'Medium (md < 768px)';
+    background: #a15b00;
+  }
 }
 
 @media (max-width: 639px) {
-	body:after {
-		content: 'Small (sm < 640px)';
-		background: #a10000;
-	}
+  body:after {
+    content: 'Small (sm < 640px)';
+    background: #a10000;
+  }
 }
