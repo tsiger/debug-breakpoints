@@ -1,5 +1,5 @@
 body:after {
-	content: 'Extra Small (xs < 640px)';
+	content: 'Extra Small (xs < 575px)';
 	background: #ca0101;
 	position: absolute;
 	top: 30px;
@@ -10,9 +10,9 @@ body:after {
   z-index: 99999;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
 	body:after {
-		content: 'Small (sm > 640px)';
+		content: 'Small (sm > 576px)';
 		background: #a10000;
 	}
 }
@@ -24,23 +24,16 @@ body:after {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	body:after {
-		content: 'Large (lg > 1024px)';
+		content: 'Large (lg > 992px)';
 		background: #69a100;
 	}
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
 	body:after {
-		content: 'Extra Large (xl > 1280px)';
+		content: 'Extra Large (xl > 1200px)';
 		background: #00a16b;
-	}
-}
-
-@media (min-width: 1536px) {
-	body:after {
-		content: '2 Extra Large (2xl > 1536px)';
-		background: #0046a1;
 	}
 }
