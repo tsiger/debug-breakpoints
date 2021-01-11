@@ -1,0 +1,38 @@
+body:after {
+	content: 'Extra Large (xl > 1200px)';
+	background: #4b00a1;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	font: bold 1rem sans-serif;
+	padding: 1rem;
+	color: #fff;
+}
+
+@media (max-width: 1199px) {
+	body:after {
+		content: 'Extra Large (xl < 1200px)';
+		background: #0046a1;
+	}
+}
+
+@media (max-width: 991px) {
+	body:after {
+		content: 'Large (lg < 992px)';
+		background: #00a16b;
+	}
+}
+
+@media (max-width: 767px) {
+	body:after {
+		content: 'Medium (md < 768px)';
+		background: #69a100;
+	}
+}
+
+@media (max-width: 575px) {
+	body:after {
+		content: 'Small (sm < 576px)';
+		background: #a15b00;
+	}
+}
