@@ -1,0 +1,46 @@
+body:after {
+	content: 'Mobile (< 640px)';
+	background: #ca0101;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	font: bold 1rem sans-serif;
+	padding: 1rem;
+  color: #fff;
+  z-index: 99999;
+}
+
+@media (min-width: 640px) {
+	body:after {
+		content: 'Small (sm > 640px)';
+		background: #a10000;
+	}
+}
+
+@media (min-width: 768px) {
+	body:after {
+		content: 'Medium (md > 768px)';
+		background: #a15b00;
+	}
+}
+
+@media (min-width: 1024px) {
+	body:after {
+		content: 'Large (lg > 1024px)';
+		background: #69a100;
+	}
+}
+
+@media (min-width: 1280px) {
+	body:after {
+		content: 'Extra Large (xl > 1280px)';
+		background: #00a16b;
+	}
+}
+
+@media (min-width: 1536px) {
+	body:after {
+		content: '2 Extra Large (2xl > 1536px)';
+		background: #0046a1;
+	}
+}
