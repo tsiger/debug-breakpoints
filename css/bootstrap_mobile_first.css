@@ -2,7 +2,7 @@ body:after {
   content: 'Extra Small (xs < 575px)';
   background: #ca0101;
   color: #fff;
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 0;
   font: bold 1rem sans-serif;

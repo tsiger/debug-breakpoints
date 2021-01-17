@@ -2,11 +2,12 @@ body:after {
   content: '2 Extra Large+ (2xl+ > 1536px)';
   background: #4b00a1;
   color: #fff;
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 0;
   font: bold 1rem sans-serif;
   padding: 1rem;
+  z-index: 99999;
 }
 
 @media (max-width: 1535px) {
